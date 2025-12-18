@@ -4,13 +4,13 @@
     background-repeat: no-repeat;
     background-size: 1200px 1200px; /*가로, 세로*/
     background-position: 300px 200px; /*위, 왼*/
-    background-image: url("html/일론.png");
+    background-image: url("겨울 이미지.jpg");
     /*
     background: url("이미지") no-repeat 200px 200px / 100px 100px
     */
 }
 #div1:hover{
-    background-image: url("");
+    background-image: url("겨울 이미지.jpg");
     color:red
 }
 #div1 div {width:50px;height:50px;}
