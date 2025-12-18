@@ -3,7 +3,7 @@
 #div7{background-color: rgb(255,0,0);}
 #div8{background-color: rgba(255,0,0,0.1);}
 
-* {margin:0, padding:0; color:red;}
+* {margin:0; padding:0; color:red;}
 
 #div5 h3:nth-child(2){background-color: purple;}
 #div5 h4:nth-child(6){background-color: peru;}
