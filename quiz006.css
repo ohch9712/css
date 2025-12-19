@@ -1,0 +1,13 @@
+
+a { position: absolute; z-index: 10;}
+a:hover ~ #login{ display: block;}
+
+/*LOGIN*/
+
+#login {
+    display: none;
+    margin: 100px auto;
+    width: 360px; height: 230px;
+    box-shadow: 0 0 8px lightgray;
+    border-radius: 10px;
+}
