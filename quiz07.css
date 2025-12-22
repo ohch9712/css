@@ -1,0 +1,37 @@
+ul { margin: 0; padding: 0;}
+li { list-style: none; width: 100px; text-align: center;
+    background-color: bisque; height: 40px; line-height: 40px;
+}
+#nav {
+    width: 400px; background-color : cadetblue
+}
+#menu {display: flex;}
+.menu1 {
+    /*
+    height: 120px;
+    display: none;
+    border: 1px solid;
+    */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    /*3번 풀이 아래 적용*/
+    margin-left:100px;
+    margin-top: -40px;
+    width: 100px;
+    background-color: aqua;
+}
+/*1,3번 문제*/
+#menu li:hover .menu1 {
+    /*display: block */
+    height: 120px;
+    border: 1px solid;
+}
+
+/*2번 문제
+#menu:hover .menu1 {
+    height:auto;
+    border:auto;
+}*/
+
+/*3번 문제*/
